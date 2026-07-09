@@ -75,6 +75,6 @@ Abrir el navegador en:
 http://localhost:3000
 ```
 
-## 👨‍💻 Autor
+## Autor
 
 Patricio Silva
