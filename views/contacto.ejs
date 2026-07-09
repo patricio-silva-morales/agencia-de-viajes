@@ -4,23 +4,27 @@
     <%- include("partials/head.ejs") %>
 </head>
 
-<body>
+<body class="d-flex flex-column min-vh-100">
     <%- include("partials/navbar.ejs") %>
 
-    <div class="container mt-5">
-        <h1>Contacto</h1>
+    <main class="container mt-5 flex-grow-1">
 
-        <div class="card">
-            <div class="card-body">
-                <p><strong>Dirección:</strong> Calle Principal 10, Curicó</p>
-                <p><strong>Teléfono:</strong> +56 9 1234 5678</p>
-                <p><strong>Correo:</strong> contacto@viajes.cl</p>
-                <p><strong>Horario:</strong> Lunes a viernes, 09:00 a 18:00 hrs.</p>
+        <div class="container mt-5">
+            <h1>Contacto</h1>
+
+            <div class="card">
+                <div class="card-body">
+                    <p><strong>Dirección:</strong> Calle Principal 10, Curicó</p>
+                    <p><strong>Teléfono:</strong> +56 9 1234 5678</p>
+                    <p><strong>Correo:</strong> contacto@viajes.cl</p>
+                    <p><strong>Horario:</strong> Lunes a viernes, 09:00 a 18:00 hrs.</p>
+                </div>
             </div>
+
+            <a href="/" class="btn btn-secondary mt-3">Volver al inicio</a>
         </div>
 
-        <a href="/" class="btn btn-secondary mt-3">Volver al inicio</a>
-    </div>
+    </main>
     <%- include("partials/footer") %>
 </body>
 </html>

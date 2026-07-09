@@ -4,16 +4,20 @@
     <%- include("partials/head.ejs") %>
 </head>
 
-<body>
+<body class="d-flex flex-column min-vh-100">
     <%- include("partials/navbar.ejs") %>
 
-    <div class="container mt-5">
-        <h1>Agencia Viajes</h1>
-        <p>Bienvenido a nuestra agencia.</p>
+    <main class="container mt-5 flex-grow-1">
+    
+        <div class="container mt-5">
+            <h1>Agencia Viajes</h1>
+            <p>Bienvenido a nuestra agencia.</p>
 
-        <a href="/destinos" class="btn btn-primary">Ver destinos</a>
-        <a href="/paquetes" class="btn btn-success">Ver paquetes</a>
-    </div>
+            <a href="/destinos" class="btn btn-primary">Ver destinos</a>
+            <a href="/paquetes" class="btn btn-success">Ver paquetes</a>
+        </div>
+
+    </main>
 
     <%- include("partials/footer") %>
 </body>
